@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 int main() {
-    char s[3] = {'a', 'b', 'c'};
-    printf("%c", s[3]);
+    char s[3];
+    s[0] = 0 + '0';
+    printf("%c", s[0]);
 }
