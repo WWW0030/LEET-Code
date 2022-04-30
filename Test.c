@@ -2,9 +2,9 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main() {
-    int *ans = malloc(sizeof(int) * 3);
-    for(int i = 0; i < )
-    if(ans[1] == NULL) printf("HEYHEYEHYE");
+    if(-INFINITY < -2147483648) printf("HEYHEY");
+    if(INFINITY > 2147483647) printf("OHOH");
 }
