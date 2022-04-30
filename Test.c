@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 int main() {
-    char s[3];
-    s[0] = 0 + '0';
-    printf("%c", s[0]);
+    int *ans = malloc(sizeof(int) * 3);
+    for(int i = 0; i < )
+    if(ans[1] == NULL) printf("HEYHEYEHYE");
 }
