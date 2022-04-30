@@ -5,6 +5,7 @@
 #include <math.h>
 
 int main() {
-    if(-INFINITY < -2147483648) printf("HEYHEY");
-    if(INFINITY > 2147483647) printf("OHOH");
+    int *ans = 0;
+    *ans = *ans + 1;
+    printf("%d", *ans);
 }
