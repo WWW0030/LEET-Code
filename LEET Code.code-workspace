@@ -7,7 +7,8 @@
 	"settings": {
 		"files.associations": {
 			"string.h": "c",
-			"ostream": "cpp"
+			"ostream": "cpp",
+			"new": "cpp"
 		}
 	}
 }
