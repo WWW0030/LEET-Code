@@ -1,8 +1,9 @@
-    #include "bits/stdc++.h"
+#include "bits/stdc++.h"
 using namespace std;
 
-    
-    vector<vector<int>> generate(int numRows) {
+class Solution {
+public:
+    vector<vector<int>> generated(int numRows) {
         vector<vector<int>> returnVector;
         vector<int> firstRow;
         firstRow.push_back(1);
@@ -20,9 +21,4 @@ using namespace std;
         }
         return returnVector;
     }
-
-    int main() {
-    vector<vector<int>> gengen;
-    gengen = generate(3);
-    cout << gengen[0][0] << endl;
-}
+};
